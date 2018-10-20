@@ -38,5 +38,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8080 9090
+EXPOSE 8888 9090
 VOLUME /config /downloads /incomplete-downloads
